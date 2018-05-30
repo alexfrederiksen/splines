@@ -1,0 +1,3 @@
+[submodule "include/matrix"]
+	path = include/matrix
+	url = https://github.com/anotherAlex154/dope-matrix-lib.git
