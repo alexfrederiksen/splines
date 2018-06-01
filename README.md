@@ -13,6 +13,7 @@ Spline is a library written in CodeBlocks and compiled with CMake. Source build 
 5. The static library archive file (.a file) will be in the "lib" folder while a demonstration will be in "bin."
 
 ## Running demo
+![Alt text](https://github.com/anotherAlex154/splines/blob/master/demo.png)
 * Left click on the canvas to add control points
 * Right click on the canvas to clear control points
 * Have fun with it (;
