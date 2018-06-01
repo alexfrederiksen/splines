@@ -8,7 +8,6 @@ set(CMAKE_ARCHIVE_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/lib)
 include_directories(${CMAKE_SOURCE_DIR}/include)
 
 add_library(spline STATIC ${CMAKE_SOURCE_DIR}/src/Spline.cpp)
-target_link_libraries(spline SDL2)
 
 add_executable(splineViewer ${CMAKE_SOURCE_DIR}/src/main.cpp)
-target_link_libraries(splineViewer spline)
+target_link_libraries(splineViewer spline SDL2)

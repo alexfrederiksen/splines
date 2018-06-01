@@ -62,6 +62,8 @@
 		</Linker>
 		<Unit filename="CMakeLists.txt" />
 		<Unit filename="include/Spline.h" />
+		<Unit filename="include/matrix/matrix.h" />
+		<Unit filename="include/matrix/matrix_impl.h" />
 		<Unit filename="src/Spline.cpp" />
 		<Unit filename="src/main.cpp" />
 		<Extensions>
